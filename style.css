@@ -1,0 +1,221 @@
+:root{
+    background-image: url("./img/image\ 1.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+
+}
+
+body{
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    padding: 70px;
+    color: white;
+    font-family:Oxanium, sans-serif;
+}
+
+header{
+    position: relative;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 16px;
+    padding: 20px 60px;
+    width: 100%;
+    height: 80px;
+}
+
+main{
+    flex-grow: 32px;
+    display: flex;
+    flex-direction: column;
+}
+
+h1{
+    flex-grow: 1;
+    font-size: 22vw;
+    color: aliceblue;
+    display: flex;
+    justify-content: center;
+    justify-content: center;
+    align-items: center;
+
+
+}
+
+.texto1{
+
+    position: absolute;
+    top: 210px; 
+    left: 50%; 
+    transform: translateX(-50%); 
+    font-size: 3vw;
+    color: aliceblue;
+    text-align: center;
+    width: 600px;
+    font-size: 70px;
+    
+    
+}
+
+.descricao{
+    position: absolute;
+    top: 480px; 
+    left: 50%;
+    transform: translateX(-50%);
+    color: rgb(255, 255, 255);
+    text-align: center;
+    width: 560px;
+}
+
+.descricao h2{
+    font-size: 30px;
+    
+
+}
+
+.navegação{
+    position: absolute;
+    display: flex;
+    left: 40%;
+    gap: 40px;
+    justify-content: center;
+}
+
+.Ostra{
+    position: absolute;
+    color: aliceblue;
+    left: 2%;
+    top: 18px;
+
+
+
+}
+
+.imagem{
+    position: absolute;
+    left: 1%;
+
+}
+
+.botao1{
+    position: absolute;
+    top: 660px;
+    left: 47%;
+    background-color: rgb(36, 87, 253);
+    border-radius: 10px;
+    padding: 10px 20px;
+}
+
+.botao2{
+    position: absolute;
+    top: 10px;
+    width: 90px;
+    font-size: 9px;
+    padding: 6px 12px;
+    left: 98%;
+    background-color: rgb(36, 87, 253);
+    border-radius: 10px;
+}
+
+/* TABLET */
+@media (max-width: 1024px) {
+    body{
+        padding: 30px;
+    }
+
+    .texto1{
+        font-size: 35px;
+        width: 450px;
+        top: 320px;
+    }
+
+    .Ostra{
+        left: 4%;
+    }
+
+    .botao2{
+        position: absolute;
+        left: 90%;
+        top: 15px;
+    }
+
+    .descricao h2{
+        font-size: 20px;
+        width: 450px;
+    }
+
+    .botao1{
+        position: absolute;
+        align-items: center;
+        top: 600px;
+        left: 41%;
+    }
+
+    .navegação{
+        position: absolute;
+        left: 21%;
+        align-items: center;
+    }
+
+
+}
+
+/* Mobile */
+
+@media (max-width: 932px) {
+    .texto1{
+        font-size: 25px;
+        width: 320px;
+        top: 300px;
+    }
+
+    .descricao h2{
+        position: absolute;
+        font-size: 16px;
+        width: 281px;
+        top: -60px;
+        left: 25%;
+    }
+
+    .Ostra{
+        font-size: 12px;
+        top: 20px;
+        left: 5%;
+    }
+
+    .navegação{
+        font-size: 6px;
+        top: 25px;
+    }
+
+    .botao1{
+        position: absolute;
+        left: 37%;
+        width: 110px;
+        padding: 10px 20px;
+        font-size: 10px;
+        top: 530px;
+
+    }
+
+    .botao2{
+        position: absolute;
+        left: 90%;
+        font-size: 5px;
+        width: 60px;
+        height: 5px;
+        text-align: center;
+        padding: 8px 2px;
+
+    }
+   
+
+
+}
+       
+
+
+
+
